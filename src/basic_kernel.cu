@@ -18,8 +18,8 @@
 #include <cstdlib>
 #include <iostream>
 
-#define NUM_BLOCKS 16
-#define NUM_THREADS_PER_BLOCK 32
+#define NUM_BLOCKS 128
+#define NUM_THREADS_PER_BLOCK 256
 #define SIZE NUM_BLOCKS*NUM_THREADS_PER_BLOCK
 
 using namespace std;
